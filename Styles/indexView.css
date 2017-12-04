@@ -1,0 +1,66 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: inherit;
+    width: inherit;
+    background-image: url(background.jpg);
+}
+
+#Header-Div{
+    color:White;
+    text-align: left;
+    font-size: 300%;
+    font-weight: bold;
+    position: relative;
+    position: fixed;
+    width: 110%;
+    height: 55px;
+    top: 0;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    z-index: 5 ;
+    box-shadow: 0 2px 4px 0 rgba(181,181,181,.7);
+    opacity:.9;
+    padding-left: 65px;
+}
+
+.DashBoardControls{
+    position: absolute;
+    position: fixed;
+    margin:0px;
+    padding: 0px;
+    visibility: hidden;
+    right: 10px;
+    top: 10px;
+    padding: 5px 12px;
+    font-size:120%;
+    z-index: 6 ;
+    background: #38c7d2;
+    color: #fff;
+    border:none;
+    box-shadow: 0 2px 4px 0 rgba(181,181,181,.7);
+}
+
+.DashBoardControls:Hover{
+    background: #3cd4e0;
+}
+
+#Create-User{
+   right: 100px; 
+}
+
+#login{
+    visibility: visible;
+}
+
+#Logo {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    z-index: 7;
+    opacity:.8;
+}
+
+
